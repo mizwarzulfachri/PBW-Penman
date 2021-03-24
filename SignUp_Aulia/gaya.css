@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("https://th.bing.com/th/id/Rc37a9d1eda38b899e294f8f0123fe83c?rik=gFeY4npKjguRFQ&riu=http%3a%2f%2fpm1.narvii.com%2f6320%2f6dece527261395f5ee134ee9d18c79e5706c0bf1_hq.jpg&ehk=HmzbiUqrNCRFp%2b8cHcPbKPBaWfI%2bf7KCWeDsE96e7DQ%3d&risl=&pid=ImgRaw");
+    background-size: cover;
+    background-position: relative;
+}
+.sign-up
+{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    outline: none;
+}
+.email-box
+{
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+    margin-left: 10px;
+}
+.input-box
+{
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+    margin-left: 10px;
+}
+.signup-btn
+{
+    background-color: midnightblue;
+    color:white;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0.5px solid #999;
+}
+.signup-btn:hover
+{
+    background-color: indigo;
+}
+.login-fb
+{
+    margin-left: 3px;
+    background-color: mediumblue;
+    color: #fff;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0.5px solid #999;
+    outline: none;
+}
+.login-fb:hover
+{
+    background-color: darkblue;
+}
+.login-twitter
+{
+    margin-left: 3px;
+    background-color: darkturquoise;
+    color: #fff;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    outline: none;
+}
+.login-twitter:hover
+{
+    background-color: darkcyan;
+}
+h1
+{
+    color: midnightblue;
+}
+hr
+{
+    margin-top: 10px;
+    width: 80%;
+}
+.or
+{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+    margin-bottom: 30px;
+}
+img
+{
+    width: 70px;
+    margin-top: -50px;
+}
+::placeholder
+{
+    color: #ccc;
+}
+.fa-eye
+{
+    margin-left: -30px;
+}
+#hide1
+{
+    display: none;
+}

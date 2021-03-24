@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Blog</title>
+        <link rel="shortcut icon" type="image/png" href="..\SignIn_Mizwar\Logo.png"/>
+        <link rel="stylesheet" type="text/css" href="gaya.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <div class="sign-up">
+            <img src="https://pluspng.com/img-png/user-png-icon-account-avatar-human-male-man-men-people-person-download-svg-download-png-edit-icon-512.png" alt="gambar icon">
+            <h1>Sign Up Now</h1>
+            <form action="">
+                <input type="email" class="email-box" placeholder="Email anda"><i class="fa fa-email"></i>
+                <span class="eye">
+                    <input type="password" class="input-box" placeholder="Password anda" id="tampilan"><i id="hide1" class="fa fa-eye"></i>
+                    <input type="password" class="input-box" placeholder="Konfirmasi Password" id="tampilan"><i id="hide1" class="fa fa-eye"></i>
+                </span>
+                <h6><span><input type="checkbox"></span> Saya setuju dengan ketentuan pelayanan yang ada</h6>
+                <a href="#"><button onclick="thatbutton()" type="button" class="signup-btn">Sign Up</button></a>
+                <hr>
+                <p class="or">OR</p>
+                <i class="fab fa-facebook"></i><a href="https://www.facebook.com/"><button type="button" class="login-fb">Login dengan Facebook </button><br></a>
+                <i class="fab fa-twitter"></i><a href="https://www.twitter.com/"><button type="button" class="login-twitter">Login dengan Twitter </button></a>
+            </form>
+        </div>
+        <script>
+            function myFunction() 
+            {
+                var x = document.getElementById("tampilan");
+                var y = document.getElementById("hide1");
+                var z = document.getElementById("hide2");
+                if (x.type === 'password') 
+                {
+                    x.type = "tampilan";
+                    y.style.display = "block";
+                    z.style.display = "none";
+                } else 
+                {
+                    x.type = "password";
+                    y.style.display = "none";
+                    z.style.display = "block";
+                }
+            }
+         
+            function thatbutton() {
+                location.href = "../SignIn_Mizwar/SignIn.html";
+            } 
+        
+        </script>
+    </body>
+</html>
