@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("https://th.bing.com/th/id/Rc37a9d1eda38b899e294f8f0123fe83c?rik=gFeY4npKjguRFQ&riu=http%3a%2f%2fpm1.narvii.com%2f6320%2f6dece527261395f5ee134ee9d18c79e5706c0bf1_hq.jpg&ehk=HmzbiUqrNCRFp%2b8cHcPbKPBaWfI%2bf7KCWeDsE96e7DQ%3d&risl=&pid=ImgRaw");
+    background-image: url("https://pbs.twimg.com/media/ExO4NDPVkAEdcU6?format=jpg&name=medium");
     background-size: cover;
     background-position: relative;
 }
@@ -15,6 +15,7 @@ body{
     margin: 8% auto 0;
     text-align: center;
     outline: none;
+    border-radius: 25px;
 }
 .email-box
 {
